@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2? family = spartan:wght@100;200;300;400;500;600;700;800;900&display = swap ');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'spartan', sans-serif;
+}
+button.btn{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 18px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    background-color: green;
+    border: 1px solid #000;
+    outline: none;
+    transition: 0.2s;
+}
+body{
+    width: 100%;
+}
+#header{
+    background: #89878a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.mini-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mini-nav li{
+    list-style: none;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+#header .inputTag{
+    border: 1px solid rgb(63, 44, 63);
+    border-radius: 25px;
+    width: 100px;
+    height: 5vh;
+    background-color: transparent;
+    text-align: center;
+    color: #000;
+}
+#header .normal{
+    background-color:  rgb(63, 44, 63);
+    color: #fff;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#navbar {
+    background-image: url("http://www.sxc.hu/pic/l/p/ps/psychopxl/1147465_48972980.jpg");
+       background-position: center center;
+       background-repeat: repeat-x;
+       background-size: 100% auto;
+       width: 100%; 
+}
+   .menu{
+     margin: 0;
+     padding: 0;
+     text-transform: uppercase;
+   }
+   
+   .menu ul{
+     margin: 0;
+     padding: 8px 20px;
+     list-style-type: none;
+     background: #364859;
+     height: 25px;
+     line-height: 25px;
+     display: flex;
+     justify-content: space-evenly;
+     height: 7vh;
+     
+   }
+   
+   .menu ul li{
+     margin: 0;
+     padding-left: 20px;
+     float: left;
+     position: relative;
+   }
+   
+   .menu ul li a{
+     margin: 0;
+     padding: 0 10px;
+     text-decoration: none;
+     color: #FFFFFF;
+     display: block;
+     font-weight: bold;
+     font-size: 12px;
+   }
+   
+   
+   .menu ul li:hover ul{
+     display:block;
+    }
+    .menu ul li ul:hover li{
+       color: red;
+       }
+   
+   .menu ul li ul{
+     position: absolute;
+     left: 0;
+     top: 20px;
+     display: none;
+     padding: 0;
+     
+   }
+   
+   .menu ul li ul li{
+     padding: 6px 0;
+     background: #364859;
+     height: 25px;
+     line-height: 25px;
+     width: 100%;
+   }
+
+
+   #scroll .scrolling{
+    position: relative;
+    width: 100%;
+    height: 4vh;
+    overflow: hidden;
+    margin-top: 0;
+    background: #09010d;
+  
+   }
+.scrolling h3{
+    position: absolute;
+    width: 100%;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateX(100%);
+    animation: scrolling 20s linear infinite;
+}
+.scrolling span{
+    color: goldenrod;
+}
+.scrolling .red{
+    color: red;
+}
+@keyframes scrolling {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+#main{
+    background: #89878a;
+    width: 100%;
+    height: 76.3vh;
+}
+#login{
+    width: 40%;
+    border: none;
+    padding: 70px 40px;
+    margin-left: 30%;
+    margin-top: 200px;
+    background: #89878a;
+    border-radius: 10px;
+}
+#login .log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+  
+}
+#login .log h2{
+    background: #364859;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+}
+#login .log .ep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#login .log .ep input{
+    margin: 10px;
+    height: 5vh;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+}
+input::placeholder {
+    color: #fff;
+    text-align: center;
+}
+.checkb{
+    font-size: 14px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+.checkb input .cb{
+    width: 10px;
+    height: 10vh;
+}
+.btn{
+    background: #364859;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+}
+
+
+
