@@ -155,7 +155,7 @@ body{
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     transform: translateX(100%);
-    animation: scrolling 20s linear infinite;
+    animation: scrolling 30s linear infinite;
 }
 .scrolling span{
     color: goldenrod;
@@ -169,6 +169,49 @@ body{
     }
     100%{
         transform: translateX(-100%);
+    }
+}
+#main{
+    background: #89878a;
+    width: 100%;
+    height: 76.3vh;
+}
+
+#scrol .scroling{
+    position: relative;
+    width: 100%;
+    height: 4vh;
+    overflow: hidden;
+    margin-top: 0;
+    background: #09010d;
+  
+   }
+.scroling h3{
+    position: absolute;
+    width: 100%;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateX(100%);
+    animation: scroling 30s linear infinite;
+}
+.scroling span{
+    color: goldenrod;
+}
+.scroling .r{
+    color: green;
+}
+@keyframes scroling {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
     }
 }
 #main{
