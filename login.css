@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#bd{
+    background: #89878a;
+
+}
+#login{
+    width: 20%;
+    border: 2px solid #364859;
+    padding: 70px 40px;
+    padding-bottom: 30px;
+    margin-left: 40%;
+    margin-top: 80px;
+    background: #89878a;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#login .log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+  
+}
+#login .log h2{
+    background: #364859;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+}
+#login .log .ep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#login .log .ep input{
+    margin: 10px;
+    height: 5vh;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+}
+input::placeholder {
+    color: #fff;
+    text-align: center;
+}
+.checkb{
+    font-size: 14px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+.checkb input .cb{
+    width: 10px;
+    height: 10vh;
+}
+.btn{
+    background: #364859;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: none;
+}
+.sp{
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    margin-left: 60px;
+    margin-top: 10%;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: left;
+}
+.sp h3 a{
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+
+}   
