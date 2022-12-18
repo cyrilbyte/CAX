@@ -5,6 +5,37 @@
     box-sizing:border-box;
     font-family: 'spartan', sans-serif;
 }
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+h4{
+    font-size: 20px;
+    color: #222;
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+p{
+    font: size 16px;
+    color: #465b52;
+    margin: 15px 0 2px 0;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+}
+
 button.btn{
     font-size: 13px;
     font-weight: 600;
@@ -218,6 +249,105 @@ body{
     background: #89878a;
     width: 100%;
     height: 76.3vh;
+}
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 25%;
+    background-color: #364859;
+    height: 160px;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color:#818ea0;
+}
+
+#newsletter p span{
+   color: red;
+  
+}
+
+#newsletter input{
+    height: 2.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 90%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius:0 ;
+    border-bottom-right-radius: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+#newsletter button{
+    background-color: #89878a;
+    color:#fff;
+    white-space: nowrap;
+    width:120px;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}  
+
+footer p{
+    font-size: 14px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 14px;
+    text-decoration:none ;
+    margin-bottom: 10px;
+    color: #222; 
+     
+}
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #364859;
+    cursor: pointer;  
+}
+footer .follow i{
+    padding-right : 4px;
 }
 
 

@@ -69,6 +69,8 @@ input::placeholder {
     margin-bottom: 10px;
     font-size: 15px;
     border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 .sp{
     color: #fff;
@@ -95,3 +97,8 @@ input::placeholder {
     padding-top: 40px;
     padding-left: 40px;
 }  
+ #login .btn:hover{
+    color: rgb(54, 225, 54);
+    font-size: 20px;
+    font-weight: 600;
+}
